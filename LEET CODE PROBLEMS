@@ -17,3 +17,13 @@ int *twoSum(int *nums, int numsSize, int target, int *returnSize){
     
     return returnValues;
 }
+
+POWER OF 2
+
+bool isPowerOfTwo(int n) {
+    long int result;
+    if(n < 1) return false;
+    result = 1;
+    while(result < n) result*=2;
+    return (result == n);
+}
